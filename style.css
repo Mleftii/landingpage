@@ -109,9 +109,16 @@ body{
  .growpic{
     float: right;
     margin: 100px;
-    /* margin-right: 250px; */
-    /* margin-top: 70px; */
+    /*margin-right: 250px;*/
+    /*margin-top: 70px;*/
  }
+
+ @media screen and (max-width:375px) {
+  .inside1, .inside2, .inside3{
+      display: block;
+  }
+}
+
  .inside2{
     background-color: white;
     display: flex;
@@ -229,14 +236,14 @@ body{
  .Lbottom{
    float: right;
  }
- @media screen and (max-width: 1440px){
+ /* @media screen and (max-width: 1440px){
   body{
     width:1000px;
   }
-}
+} */
 @media screen and (max-width:375px) {
-  body{
-    width: 200px;
+  .header{
+      display: block;
   }
 }
 
